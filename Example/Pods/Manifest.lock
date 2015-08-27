@@ -1,0 +1,19 @@
+PODS:
+  - HaidoraAlertViewManager (0.1.0):
+    - HaidoraAlertViewManager/Core (= 0.1.0)
+    - HaidoraAlertViewManager/UIAlertView (= 0.1.0)
+  - HaidoraAlertViewManager/Core (0.1.0)
+  - HaidoraAlertViewManager/UIAlertView (0.1.0):
+    - HaidoraAlertViewManager/Core
+
+DEPENDENCIES:
+  - HaidoraAlertViewManager (from `../`)
+
+EXTERNAL SOURCES:
+  HaidoraAlertViewManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HaidoraAlertViewManager: 0c994ca32ac4dc39a6c2c6867598473b4692adb8
+
+COCOAPODS: 0.38.2
