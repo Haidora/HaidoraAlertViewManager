@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "HaidoraAlertViewManager"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HaidoraAlertViewManager."
+  s.summary          = "A wrapper for alertView."
   s.description      = <<-DESC
                         A wrapper for alertView,only one api for alertView.
                        DESC
