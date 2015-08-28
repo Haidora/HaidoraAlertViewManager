@@ -14,7 +14,7 @@
 @dynamic hd_title;
 @dynamic hd_message;
 
-- (instancetype)init:(NSString *)title message:(NSString *)message
+- (instancetype)initWithTitle:(NSString *)title message:(NSString *)message
 {
     NSError *error = [self initWithDomain:@"HDAlertViewManagerDomain" code:-1 userInfo:nil];
     error.hd_title = title;

@@ -16,6 +16,6 @@ static NSString *kHD_NSError_message = @"kHD_NSError_message";
 @property (nonatomic, strong) NSString *hd_title;
 @property (nonatomic, strong) NSString *hd_message;
 
-- (instancetype)init:(NSString *)title message:(NSString *)message;
+- (instancetype)initWithTitle:(NSString *)title message:(NSString *)message;
 
 @end
