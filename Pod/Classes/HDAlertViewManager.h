@@ -23,7 +23,7 @@
                message:(NSString *)message
            clickAction:(void (^)(id alertView, NSInteger index))clickAction
            cancelTitle:(NSString *)cancelTitle
-     otherButtonTitles:(NSString *)buttonTitle, ...;
+     otherButtonTitles:(NSString *)buttonTitle, ... NS_REQUIRES_NIL_TERMINATION;
 
 + (void)alertWithError:(NSError *)error;
 
