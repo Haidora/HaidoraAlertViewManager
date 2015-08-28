@@ -22,22 +22,23 @@
     return error;
 }
 
-- (void)setTitle:(NSString *)title
+- (void)setHd_title:(NSString *)hd_title
 {
-    objc_setAssociatedObject(self, &kHD_NSError_title, title, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, &kHD_NSError_title, hd_title, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
-- (void)setMessage:(NSString *)message
+- (void)setHd_message:(NSString *)hd_message
 {
-    objc_setAssociatedObject(self, &kHD_NSError_message, message, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, &kHD_NSError_message, hd_message,
+                             OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
-- (NSString *)title
+- (NSString *)hd_title
 {
     return objc_getAssociatedObject(self, &kHD_NSError_title);
 }
 
-- (NSString *)message
+- (NSString *)hd_message
 {
     return objc_getAssociatedObject(self, &kHD_NSError_message);
 }
