@@ -10,5 +10,6 @@
 #define Pods_HaidoraAlertViewManager_h
 
 #import "HDAlertViewManager.h"
+#import "NSError+HDAlertViewManager.h"
 
 #endif

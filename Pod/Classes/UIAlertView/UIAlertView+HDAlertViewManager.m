@@ -7,8 +7,7 @@
 //
 
 #import "UIAlertView+HDAlertViewManager.h"
-#import "NSError+HDAlertViewManager.h"
-#import "HDAlertViewManager.h"
+#import "HaidoraAlertViewManager.h"
 #import <objc/runtime.h>
 
 @implementation UIAlertView (HDAlertViewManager)
