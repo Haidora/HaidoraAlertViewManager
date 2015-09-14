@@ -56,7 +56,7 @@ static Class<HaidoraAlertViewProtocol> _alertViewClass = nil;
     if (buttonTitle)
     {
         va_start(arguments, buttonTitle);
-
+        [buttonTitles addObject:buttonTitle];
         while ((eachObject = va_arg(arguments, id)))
         {
             [buttonTitles addObject:eachObject];
