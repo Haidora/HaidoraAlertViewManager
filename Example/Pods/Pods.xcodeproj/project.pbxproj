@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BA429048AB745A4DCBB1883A50E9010 /* NSError+HDAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A87D88A1825D619DF7D7D665DC891A95 /* NSError+HDAlertViewManager.m */; };
-		1F57484707A92B6DF6CD090AA39F3C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA335E46EA64B6A9838BDD8267A857B /* Foundation.framework */; };
-		6AA8BB0EE9BF2ADCE8D0EFFD684E530F /* HDAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C73AD7F197E60AFC6FFC57B3FAAC48 /* HDAlertViewManager.h */; };
-		76FB601FB8EFDC72559BB3A9A2CD9DB2 /* UIAlertView+HDAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3004041708F7A9D5F88B8E8DBF36CDF4 /* UIAlertView+HDAlertViewManager.m */; };
-		84D8F901D3ED208AC9D58A843A63CBB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA335E46EA64B6A9838BDD8267A857B /* Foundation.framework */; };
+		1C08819D595C1D6655369FF122466B34 /* UIAlertView+HDAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B3FB58A4C84353496DEAA7A4E1F227 /* UIAlertView+HDAlertViewManager.h */; };
+		1CE77234F612AA4358DB07245A32B6BD /* HDAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 039D1ED3C270FACC70640BB4ABE5FD7E /* HDAlertViewManager.m */; };
+		1F57484707A92B6DF6CD090AA39F3C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C503F5CA1361D91C218314DDC283C45 /* Foundation.framework */; };
+		36BF5C76CF72DB7E19A5F7A2DACA9520 /* NSError+HDAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BB00D47B230EBD42BEE6CB026EFA8B /* NSError+HDAlertViewManager.h */; };
+		5C68FACD0F52E2C73F925AA3C9CB6E0C /* HDAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6AE5E7DD834D19A72F431A4B44B2AD /* HDAlertViewManager.h */; };
+		6933C7C8A16B9CBE13D80A1E072DCC73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C503F5CA1361D91C218314DDC283C45 /* Foundation.framework */; };
+		835669712FB17624A4091C7E17CEBF36 /* HaidoraAlertViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 656300EB767B69BEB4520AD3E5B5174A /* HaidoraAlertViewProtocol.h */; };
+		84D8F901D3ED208AC9D58A843A63CBB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C503F5CA1361D91C218314DDC283C45 /* Foundation.framework */; };
 		8BF87E59E54529F384E591E3B482FD38 /* Pods-HaidoraAlertViewManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3F3CB26D6A462F666F295445621045 /* Pods-HaidoraAlertViewManager_Tests-dummy.m */; };
-		8C3C053B83F9553F17B1960DD63F3658 /* UIAlertView+HDAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 784DD71DEE862D6A6E33C3D310394102 /* UIAlertView+HDAlertViewManager.h */; };
 		97BF76E0229BF4D8347766FE2E20DA35 /* Pods-HaidoraAlertViewManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3C9DFAE9B6EFE019A6AF8049D6D50B /* Pods-HaidoraAlertViewManager_Example-dummy.m */; };
-		B5211C2AAC02899D8925A3FFA49A56B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA335E46EA64B6A9838BDD8267A857B /* Foundation.framework */; };
-		BF6705EF033D8A96F833283B075263EA /* HaidoraAlertViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C37C6030B00768DEBEB5A0F96324C9 /* HaidoraAlertViewManager-dummy.m */; };
-		C9B8F4F6891A927A85335811F1203FCE /* NSError+HDAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5DE428D69DF6EA48C83B5D7581091B /* NSError+HDAlertViewManager.h */; };
-		CDB44CCCFBD8E82200942078EB8F99BC /* HDAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D636B1C824EE2F1593C31399573CD7EF /* HDAlertViewManager.m */; };
-		F1A18E5F1E14D04B5B03853F328EB468 /* HaidoraAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37ACCC157CF9E8D838A469788BEC1E1C /* HaidoraAlertViewManager.h */; };
-		FBD5016059074B0D5B83EF085EA0342B /* HaidoraAlertViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FD138625B0ACF3402E324651342DF9 /* HaidoraAlertViewProtocol.h */; };
+		A8C329C01254CC6CAB4D85D6D0F75620 /* UIAlertView+HDAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D78DB941C2B95D13D14B1D7CC4901403 /* UIAlertView+HDAlertViewManager.m */; };
+		AA6F40488AB5E4EA486193FD46FE14EF /* NSError+HDAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 376221119DC16CB7E5DEB4A9074C0741 /* NSError+HDAlertViewManager.m */; };
+		B0B27002A0935E9845A737285D2232EE /* HaidoraAlertViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C00EA7692B425CCD57CDCF6B40C86D49 /* HaidoraAlertViewManager-dummy.m */; };
+		C4BDC5A8863417CD12FB74CA5256F80E /* HaidoraAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D348424F2ABB4F99C6B30D27EE9738D6 /* HaidoraAlertViewManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0608BF8F2138C92729966574CE8F9056 /* PBXContainerItemProxy */ = {
+		56889E9CB7F3AC61F6FE580D729994BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E906DD9DF03E25F70926B02837D3AFF3;
+			remoteGlobalIDString = A8A5A3846CA0C6678D245BB9F853EB5D;
 			remoteInfo = HaidoraAlertViewManager;
 		};
-		CB2308433B29D548270C6CD9C03353C8 /* PBXContainerItemProxy */ = {
+		E2EAA6F48248E11435D8BA9E7FA10D1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E906DD9DF03E25F70926B02837D3AFF3;
+			remoteGlobalIDString = A8A5A3846CA0C6678D245BB9F853EB5D;
 			remoteInfo = HaidoraAlertViewManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		080EFD9D070310996046371DC3279579 /* libHaidoraAlertViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHaidoraAlertViewManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		039D1ED3C270FACC70640BB4ABE5FD7E /* HDAlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDAlertViewManager.m; sourceTree = "<group>"; };
 		0B40029614A46F93CD91CB8B805079AC /* HaidoraAlertViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HaidoraAlertViewManager-prefix.pch"; sourceTree = "<group>"; };
-		1FA335E46EA64B6A9838BDD8267A857B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2F5DE428D69DF6EA48C83B5D7581091B /* NSError+HDAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+HDAlertViewManager.h"; sourceTree = "<group>"; };
-		3004041708F7A9D5F88B8E8DBF36CDF4 /* UIAlertView+HDAlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HDAlertViewManager.m"; sourceTree = "<group>"; };
+		1C503F5CA1361D91C218314DDC283C45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		27D4B4DC3FE496574BDF0648C3B50835 /* HaidoraAlertViewManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HaidoraAlertViewManager-Private.xcconfig"; sourceTree = "<group>"; };
+		2B6AE5E7DD834D19A72F431A4B44B2AD /* HDAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDAlertViewManager.h; sourceTree = "<group>"; };
 		3314E5B4AB7AC97D4F573DDCF156203E /* Pods-HaidoraAlertViewManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraAlertViewManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		37ACCC157CF9E8D838A469788BEC1E1C /* HaidoraAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraAlertViewManager.h; sourceTree = "<group>"; };
+		376221119DC16CB7E5DEB4A9074C0741 /* NSError+HDAlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+HDAlertViewManager.m"; sourceTree = "<group>"; };
 		43D2A60B9DB74FA66A4FE3B8AF982356 /* Pods-HaidoraAlertViewManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraAlertViewManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52B3FB58A4C84353496DEAA7A4E1F227 /* UIAlertView+HDAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HDAlertViewManager.h"; sourceTree = "<group>"; };
 		54CD1D2EA0AB887999749E316438643A /* Pods-HaidoraAlertViewManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HaidoraAlertViewManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		55FD138625B0ACF3402E324651342DF9 /* HaidoraAlertViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraAlertViewProtocol.h; sourceTree = "<group>"; };
 		5A48FCBE099E66FA5E30E1C52C516221 /* HaidoraAlertViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HaidoraAlertViewManager.xcconfig; sourceTree = "<group>"; };
-		65C73AD7F197E60AFC6FFC57B3FAAC48 /* HDAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HDAlertViewManager.h; sourceTree = "<group>"; };
+		656300EB767B69BEB4520AD3E5B5174A /* HaidoraAlertViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraAlertViewProtocol.h; sourceTree = "<group>"; };
 		6C7B76777A1780DA5DBB89769AEBAD3B /* Pods-HaidoraAlertViewManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraAlertViewManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E270B49DB7AF239D243C25689259CFA /* Pods-HaidoraAlertViewManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraAlertViewManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7081B8ACB1B7FB3FE52756C44EE63D5C /* Pods-HaidoraAlertViewManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HaidoraAlertViewManager_Example-resources.sh"; sourceTree = "<group>"; };
-		784DD71DEE862D6A6E33C3D310394102 /* UIAlertView+HDAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HDAlertViewManager.h"; sourceTree = "<group>"; };
-		7D97A7BED224B56A9434B294490D94BD /* HaidoraAlertViewManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HaidoraAlertViewManager-Private.xcconfig"; sourceTree = "<group>"; };
 		9F8E24CCDB83A26E9344E4AB1DAE0E2E /* Pods-HaidoraAlertViewManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HaidoraAlertViewManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A67DAB63AF9403E0C544BE3508117D85 /* libPods-HaidoraAlertViewManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraAlertViewManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A87D88A1825D619DF7D7D665DC891A95 /* NSError+HDAlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+HDAlertViewManager.m"; sourceTree = "<group>"; };
 		AA3F3CB26D6A462F666F295445621045 /* Pods-HaidoraAlertViewManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraAlertViewManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		B2148B33CEF555D481776489892AFE92 /* libPods-HaidoraAlertViewManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HaidoraAlertViewManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D636B1C824EE2F1593C31399573CD7EF /* HDAlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HDAlertViewManager.m; sourceTree = "<group>"; };
-		E8C37C6030B00768DEBEB5A0F96324C9 /* HaidoraAlertViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaidoraAlertViewManager-dummy.m"; sourceTree = "<group>"; };
+		C00EA7692B425CCD57CDCF6B40C86D49 /* HaidoraAlertViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HaidoraAlertViewManager-dummy.m"; sourceTree = "<group>"; };
+		D348424F2ABB4F99C6B30D27EE9738D6 /* HaidoraAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HaidoraAlertViewManager.h; sourceTree = "<group>"; };
+		D78DB941C2B95D13D14B1D7CC4901403 /* UIAlertView+HDAlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HDAlertViewManager.m"; sourceTree = "<group>"; };
+		D9BB00D47B230EBD42BEE6CB026EFA8B /* NSError+HDAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+HDAlertViewManager.h"; sourceTree = "<group>"; };
+		E104AF5DA3C61531C56EA64B0706B2E0 /* libHaidoraAlertViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHaidoraAlertViewManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3C9DFAE9B6EFE019A6AF8049D6D50B /* Pods-HaidoraAlertViewManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HaidoraAlertViewManager_Example-dummy.m"; sourceTree = "<group>"; };
 		F6F4CD721E328A5BD9EB6613956D0FBA /* Pods-HaidoraAlertViewManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraAlertViewManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FB85FE6990D0E862581056953A9F2CFB /* Pods-HaidoraAlertViewManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HaidoraAlertViewManager_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,19 +81,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2AB114554123C97EB39C563ABE68DDE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6933C7C8A16B9CBE13D80A1E072DCC73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		796441EF35C20873CC0857DAF93DFE6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F57484707A92B6DF6CD090AA39F3C8A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C7D6CE21931092F975953A83FBC497A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5211C2AAC02899D8925A3FFA49A56B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1FA335E46EA64B6A9838BDD8267A857B /* Foundation.framework */,
+				1C503F5CA1361D91C218314DDC283C45 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -210,12 +210,12 @@
 		BB8CCBEC55139B263BA3F5C14B93EE2C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				65C73AD7F197E60AFC6FFC57B3FAAC48 /* HDAlertViewManager.h */,
-				D636B1C824EE2F1593C31399573CD7EF /* HDAlertViewManager.m */,
-				37ACCC157CF9E8D838A469788BEC1E1C /* HaidoraAlertViewManager.h */,
-				55FD138625B0ACF3402E324651342DF9 /* HaidoraAlertViewProtocol.h */,
-				2F5DE428D69DF6EA48C83B5D7581091B /* NSError+HDAlertViewManager.h */,
-				A87D88A1825D619DF7D7D665DC891A95 /* NSError+HDAlertViewManager.m */,
+				2B6AE5E7DD834D19A72F431A4B44B2AD /* HDAlertViewManager.h */,
+				039D1ED3C270FACC70640BB4ABE5FD7E /* HDAlertViewManager.m */,
+				D348424F2ABB4F99C6B30D27EE9738D6 /* HaidoraAlertViewManager.h */,
+				656300EB767B69BEB4520AD3E5B5174A /* HaidoraAlertViewProtocol.h */,
+				D9BB00D47B230EBD42BEE6CB026EFA8B /* NSError+HDAlertViewManager.h */,
+				376221119DC16CB7E5DEB4A9074C0741 /* NSError+HDAlertViewManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -231,8 +231,8 @@
 		C222C51830EB23D22D50C5DA36FD128E /* UIAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				784DD71DEE862D6A6E33C3D310394102 /* UIAlertView+HDAlertViewManager.h */,
-				3004041708F7A9D5F88B8E8DBF36CDF4 /* UIAlertView+HDAlertViewManager.m */,
+				52B3FB58A4C84353496DEAA7A4E1F227 /* UIAlertView+HDAlertViewManager.h */,
+				D78DB941C2B95D13D14B1D7CC4901403 /* UIAlertView+HDAlertViewManager.m */,
 			);
 			path = UIAlertView;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				080EFD9D070310996046371DC3279579 /* libHaidoraAlertViewManager.a */,
+				E104AF5DA3C61531C56EA64B0706B2E0 /* libHaidoraAlertViewManager.a */,
 				A67DAB63AF9403E0C544BE3508117D85 /* libPods-HaidoraAlertViewManager_Example.a */,
 				B2148B33CEF555D481776489892AFE92 /* libPods-HaidoraAlertViewManager_Tests.a */,
 			);
@@ -259,8 +259,8 @@
 			isa = PBXGroup;
 			children = (
 				5A48FCBE099E66FA5E30E1C52C516221 /* HaidoraAlertViewManager.xcconfig */,
-				7D97A7BED224B56A9434B294490D94BD /* HaidoraAlertViewManager-Private.xcconfig */,
-				E8C37C6030B00768DEBEB5A0F96324C9 /* HaidoraAlertViewManager-dummy.m */,
+				27D4B4DC3FE496574BDF0648C3B50835 /* HaidoraAlertViewManager-Private.xcconfig */,
+				C00EA7692B425CCD57CDCF6B40C86D49 /* HaidoraAlertViewManager-dummy.m */,
 				0B40029614A46F93CD91CB8B805079AC /* HaidoraAlertViewManager-prefix.pch */,
 			);
 			name = "Support Files";
@@ -270,28 +270,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		532A92F647CB4ED8379ABAB0008FAD94 /* Headers */ = {
+		2FE6902E9CA6E022EBFB469382150930 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA8BB0EE9BF2ADCE8D0EFFD684E530F /* HDAlertViewManager.h in Headers */,
-				F1A18E5F1E14D04B5B03853F328EB468 /* HaidoraAlertViewManager.h in Headers */,
-				FBD5016059074B0D5B83EF085EA0342B /* HaidoraAlertViewProtocol.h in Headers */,
-				C9B8F4F6891A927A85335811F1203FCE /* NSError+HDAlertViewManager.h in Headers */,
-				8C3C053B83F9553F17B1960DD63F3658 /* UIAlertView+HDAlertViewManager.h in Headers */,
+				5C68FACD0F52E2C73F925AA3C9CB6E0C /* HDAlertViewManager.h in Headers */,
+				C4BDC5A8863417CD12FB74CA5256F80E /* HaidoraAlertViewManager.h in Headers */,
+				835669712FB17624A4091C7E17CEBF36 /* HaidoraAlertViewProtocol.h in Headers */,
+				36BF5C76CF72DB7E19A5F7A2DACA9520 /* NSError+HDAlertViewManager.h in Headers */,
+				1C08819D595C1D6655369FF122466B34 /* UIAlertView+HDAlertViewManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E906DD9DF03E25F70926B02837D3AFF3 /* HaidoraAlertViewManager */ = {
+		A8A5A3846CA0C6678D245BB9F853EB5D /* HaidoraAlertViewManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5643C9C86297EF8427BAB544562671ED /* Build configuration list for PBXNativeTarget "HaidoraAlertViewManager" */;
+			buildConfigurationList = A6A876FB4915903BA1D4BB43A964F221 /* Build configuration list for PBXNativeTarget "HaidoraAlertViewManager" */;
 			buildPhases = (
-				5B7B3F93B3504B81DBD3B4492D4EC3E0 /* Sources */,
-				7C7D6CE21931092F975953A83FBC497A /* Frameworks */,
-				532A92F647CB4ED8379ABAB0008FAD94 /* Headers */,
+				4954AE67CC01EAC55442DD667CED0C9E /* Sources */,
+				2AB114554123C97EB39C563ABE68DDE9 /* Frameworks */,
+				2FE6902E9CA6E022EBFB469382150930 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -299,7 +299,7 @@
 			);
 			name = HaidoraAlertViewManager;
 			productName = HaidoraAlertViewManager;
-			productReference = 080EFD9D070310996046371DC3279579 /* libHaidoraAlertViewManager.a */;
+			productReference = E104AF5DA3C61531C56EA64B0706B2E0 /* libHaidoraAlertViewManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F5C7908D60528F071BA66FC81E6B5FE8 /* Pods-HaidoraAlertViewManager_Example */ = {
@@ -312,7 +312,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA591A8BFD371EA4397F9A3BD3D96DA1 /* PBXTargetDependency */,
+				35DC017BDC9B785388C90067D30B57A5 /* PBXTargetDependency */,
 			);
 			name = "Pods-HaidoraAlertViewManager_Example";
 			productName = "Pods-HaidoraAlertViewManager_Example";
@@ -329,7 +329,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7F310CD7FDCC26B29B290D7890A07585 /* PBXTargetDependency */,
+				26B255D16F5D1FCF5066087C290CDB3E /* PBXTargetDependency */,
 			);
 			name = "Pods-HaidoraAlertViewManager_Tests";
 			productName = "Pods-HaidoraAlertViewManager_Tests";
@@ -357,7 +357,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E906DD9DF03E25F70926B02837D3AFF3 /* HaidoraAlertViewManager */,
+				A8A5A3846CA0C6678D245BB9F853EB5D /* HaidoraAlertViewManager */,
 				F5C7908D60528F071BA66FC81E6B5FE8 /* Pods-HaidoraAlertViewManager_Example */,
 				FED298A0867EF19D862386A7E35143DC /* Pods-HaidoraAlertViewManager_Tests */,
 			);
@@ -373,14 +373,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B7B3F93B3504B81DBD3B4492D4EC3E0 /* Sources */ = {
+		4954AE67CC01EAC55442DD667CED0C9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB44CCCFBD8E82200942078EB8F99BC /* HDAlertViewManager.m in Sources */,
-				BF6705EF033D8A96F833283B075263EA /* HaidoraAlertViewManager-dummy.m in Sources */,
-				0BA429048AB745A4DCBB1883A50E9010 /* NSError+HDAlertViewManager.m in Sources */,
-				76FB601FB8EFDC72559BB3A9A2CD9DB2 /* UIAlertView+HDAlertViewManager.m in Sources */,
+				1CE77234F612AA4358DB07245A32B6BD /* HDAlertViewManager.m in Sources */,
+				B0B27002A0935E9845A737285D2232EE /* HaidoraAlertViewManager-dummy.m in Sources */,
+				AA6F40488AB5E4EA486193FD46FE14EF /* NSError+HDAlertViewManager.m in Sources */,
+				A8C329C01254CC6CAB4D85D6D0F75620 /* UIAlertView+HDAlertViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7F310CD7FDCC26B29B290D7890A07585 /* PBXTargetDependency */ = {
+		26B255D16F5D1FCF5066087C290CDB3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HaidoraAlertViewManager;
-			target = E906DD9DF03E25F70926B02837D3AFF3 /* HaidoraAlertViewManager */;
-			targetProxy = 0608BF8F2138C92729966574CE8F9056 /* PBXContainerItemProxy */;
+			target = A8A5A3846CA0C6678D245BB9F853EB5D /* HaidoraAlertViewManager */;
+			targetProxy = E2EAA6F48248E11435D8BA9E7FA10D1D /* PBXContainerItemProxy */;
 		};
-		EA591A8BFD371EA4397F9A3BD3D96DA1 /* PBXTargetDependency */ = {
+		35DC017BDC9B785388C90067D30B57A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HaidoraAlertViewManager;
-			target = E906DD9DF03E25F70926B02837D3AFF3 /* HaidoraAlertViewManager */;
-			targetProxy = CB2308433B29D548270C6CD9C03353C8 /* PBXContainerItemProxy */;
+			target = A8A5A3846CA0C6678D245BB9F853EB5D /* HaidoraAlertViewManager */;
+			targetProxy = 56889E9CB7F3AC61F6FE580D729994BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -515,22 +515,6 @@
 			};
 			name = Debug;
 		};
-		4146B0978973BE73369EB506A7C39642 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D97A7BED224B56A9434B294490D94BD /* HaidoraAlertViewManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HaidoraAlertViewManager/HaidoraAlertViewManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		9CC9B2F7ADA93B276C10B10C5BEFD4EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6F4CD721E328A5BD9EB6613956D0FBA /* Pods-HaidoraAlertViewManager_Tests.release.xcconfig */;
@@ -541,22 +525,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AEBC596661360A5ED3A8E28CAEB69509 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D97A7BED224B56A9434B294490D94BD /* HaidoraAlertViewManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HaidoraAlertViewManager/HaidoraAlertViewManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -579,6 +547,38 @@
 			};
 			name = Release;
 		};
+		D40AE05C00AC5C4BE793D5D2861D7497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D4B4DC3FE496574BDF0648C3B50835 /* HaidoraAlertViewManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraAlertViewManager/HaidoraAlertViewManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE7D4B54BAF19401DA5B27D2C22B72EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D4B4DC3FE496574BDF0648C3B50835 /* HaidoraAlertViewManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HaidoraAlertViewManager/HaidoraAlertViewManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -591,20 +591,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5643C9C86297EF8427BAB544562671ED /* Build configuration list for PBXNativeTarget "HaidoraAlertViewManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4146B0978973BE73369EB506A7C39642 /* Debug */,
-				AEBC596661360A5ED3A8E28CAEB69509 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A4739CFE45B1623B6B600B96AF29EA13 /* Build configuration list for PBXNativeTarget "Pods-HaidoraAlertViewManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				006B1F89F6E1A37996F52E5DD142A7EB /* Debug */,
 				D0FAB0BFF59EEA0AFFEAC093300983CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A876FB4915903BA1D4BB43A964F221 /* Build configuration list for PBXNativeTarget "HaidoraAlertViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7D4B54BAF19401DA5B27D2C22B72EC /* Debug */,
+				D40AE05C00AC5C4BE793D5D2861D7497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

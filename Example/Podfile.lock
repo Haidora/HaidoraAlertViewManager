@@ -14,6 +14,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HaidoraAlertViewManager: 0c994ca32ac4dc39a6c2c6867598473b4692adb8
+  HaidoraAlertViewManager: 541bcd37b300388fad957cce1a85fc7dc1555330
 
 COCOAPODS: 0.38.2

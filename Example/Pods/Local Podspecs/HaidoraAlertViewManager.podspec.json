@@ -1,9 +1,9 @@
 {
   "name": "HaidoraAlertViewManager",
   "version": "0.1.0",
-  "summary": "A short description of HaidoraAlertViewManager.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/HaidoraAlertViewManager",
+  "summary": "A wrapper for alertView.",
+  "description": "A wrapper for alertView,only one api for alertView.",
+  "homepage": "https://github.com/Haidora/HaidoraAlertViewManager",
   "license": "MIT",
   "authors": {
     "liaowei": "598951856@qq.com"

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "77AFCD648B10F539C7514A70"
+               BlueprintIdentifier = "F43A24725983DF0EB1AC334A"
                BuildableName = "libHaidoraAlertViewManager.a"
                BlueprintName = "HaidoraAlertViewManager"
                ReferencedContainer = "container:Pods.xcodeproj">
