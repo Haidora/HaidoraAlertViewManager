@@ -1,15 +1,43 @@
 # HaidoraAlertViewManager
 
-[![CI Status](http://img.shields.io/travis/liaowei/HaidoraAlertViewManager.svg?style=flat)](https://travis-ci.org/liaowei/HaidoraAlertViewManager)
 [![Version](https://img.shields.io/cocoapods/v/HaidoraAlertViewManager.svg?style=flat)](http://cocoapods.org/pods/HaidoraAlertViewManager)
 [![License](https://img.shields.io/cocoapods/l/HaidoraAlertViewManager.svg?style=flat)](http://cocoapods.org/pods/HaidoraAlertViewManager)
 [![Platform](https://img.shields.io/cocoapods/p/HaidoraAlertViewManager.svg?style=flat)](http://cocoapods.org/pods/HaidoraAlertViewManager)
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+统一弹出框API.
 
-## Requirements
+使用如下
+
+```objc
+//弹出message
++ (void)alertWithMessage:(NSString *)message;
+//弹出title和message
++ (void)alertWithTitle:(NSString *)title message:(NSString *)message;
+//弹出title、message、cancelTitle
++ (void)alertWithTitle:(NSString *)title
+               message:(NSString *)message
+           cancelTitle:(NSString *)cancelTitle;
+//弹出title、message和多个按钮
++ (void)alertWithTitle:(NSString *)title
+               message:(NSString *)message
+           clickAction:(void (^)(id alertView, NSInteger index))clickAction
+           cancelTitle:(NSString *)cancelTitle
+     otherButtonTitles:(NSString *)buttonTitle, ... NS_REQUIRES_NIL_TERMINATION;
+//弹出error
++ (void)alertWithError:(NSError *)error;
+```
+自定义弹出框样式
+
+```objc
+//1.实现HaidoraAlertViewProtocol
+@interface XXXAlertView <HaidoraAlertViewProtocol>
+
+@end
+//2.配置弹出框
+[HDAlertViewManager setAlertViewClass:[XXXAlertView class]];
+```
 
 ## Installation
 
