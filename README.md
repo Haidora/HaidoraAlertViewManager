@@ -6,7 +6,7 @@
 
 ## Usage
 
-统一弹出框API.
+统一弹出框API.替换[XXXAlertView alert]
 
 使用如下
 
