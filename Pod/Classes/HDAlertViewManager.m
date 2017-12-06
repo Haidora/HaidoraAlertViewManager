@@ -45,6 +45,31 @@ static Class<HaidoraAlertViewProtocol> _alertViewClass = nil;
 }
 
 + (void)alertWithTitle:(NSString *)title
+			   message:(NSString *)message
+		   clickAction:(void (^)(id alertView, NSInteger index))clickAction
+		   cancelTitle:(NSString *)cancelTitle
+{
+	[_alertViewClass alertWithTitle:title
+							message:message
+						clickAction:clickAction
+						cancelTitle:cancelTitle
+				  otherButtonTitles:nil];
+}
+
++ (void)alertWithTitle:(NSString *)title
+			   message:(NSString *)message
+		   clickAction:(void (^)(id alertView, NSInteger index))clickAction
+		   cancelTitle:(NSString *)cancelTitle
+		  buttonTitles:(NSMutableArray *)buttonTitles
+{
+	[_alertViewClass alertWithTitle:title
+							message:message
+						clickAction:clickAction
+						cancelTitle:cancelTitle
+				  otherButtonTitles:buttonTitles];
+}
+
++ (void)alertWithTitle:(NSString *)title
                message:(NSString *)message
            clickAction:(void (^)(id alertView, NSInteger index))clickAction
            cancelTitle:(NSString *)cancelTitle

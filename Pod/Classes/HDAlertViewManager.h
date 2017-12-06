@@ -20,6 +20,17 @@
            cancelTitle:(NSString *)cancelTitle;
 
 + (void)alertWithTitle:(NSString *)title
+			   message:(NSString *)message
+		   clickAction:(void (^)(id alertView, NSInteger index))clickAction
+		   cancelTitle:(NSString *)cancelTitle;
+
++ (void)alertWithTitle:(NSString *)title
+			   message:(NSString *)message
+		   clickAction:(void (^)(id alertView, NSInteger index))clickAction
+		   cancelTitle:(NSString *)cancelTitle
+		  buttonTitles:(NSMutableArray *)buttonTitles;
+
++ (void)alertWithTitle:(NSString *)title
                message:(NSString *)message
            clickAction:(void (^)(id alertView, NSInteger index))clickAction
            cancelTitle:(NSString *)cancelTitle
